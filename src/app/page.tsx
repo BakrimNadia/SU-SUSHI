@@ -4,6 +4,8 @@ import React from "react";
 import Header from "./Components/Header";
 import Presentation from "./Components/Presentation";
 import Navbar from "./Components/Navbar";
+import Contact from "./Components/Contact";
+import SushiMenu from "./Components/SushiMenu";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       </div>
       <div>
         <Presentation />
+        <SushiMenu />
+        <Contact />
       </div>
     </div>
   );
