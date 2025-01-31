@@ -30,7 +30,7 @@ export default function Navbar() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm/6 font-semibold text-white">
+          <a href="#Menu" className="text-sm/6 font-semibold text-white">
             NOS MENUS
             </a>
           <a href="#" className="text-sm/6 font-semibold text-white">
@@ -39,7 +39,7 @@ export default function Navbar() {
           <a href="#" className="text-sm/6 font-semibold text-white">
             ADRESSE
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-white">
+          <a href="#Contact" className="text-sm/6 font-semibold text-white">
             CONTACT
           </a>
         </PopoverGroup>
@@ -69,7 +69,7 @@ export default function Navbar() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6 bg-black">
                 <a
-                  href="#"
+                  href="#Menu"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
                 >
                     NOS MENUS
@@ -87,7 +87,7 @@ export default function Navbar() {
                   ADRESSE
                 </a>
                 <a
-                  href="#"
+                  href="#Contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
                 >
                   CONTACT

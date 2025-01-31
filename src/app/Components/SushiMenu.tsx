@@ -22,7 +22,7 @@ export default function SushiMenu() {
     ];
   
     return (
-      <div className="comfortaa max-w-4xl mx-auto p-4">
+      <div id="Menu" className="comfortaa max-w-4xl mx-auto p-4">
         <h2 className="text-2xl font-bold text-center mb-6">Nos menus</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {menuItems.map((item, index) => (
