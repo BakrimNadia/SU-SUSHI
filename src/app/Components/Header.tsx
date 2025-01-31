@@ -4,7 +4,7 @@ import React from 'react';
 
 export const Header = () => {
   return (
-    <div className="video-container">
+    <div className="comfortaa video-container">
       {/* Vidéo en arrière-plan */}
       <video autoPlay loop muted playsInline className="background-video">
         <source src="sushi-video.mp4" type="video/mp4" />

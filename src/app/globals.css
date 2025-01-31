@@ -14,6 +14,7 @@
   }
 }
 
+
 body {
   color: var(--foreground);
   background: var(--background);
@@ -53,6 +54,14 @@ body {
   animation: scrollAndStop 5s ease-out forwards;
 }
 
+
+.comfortaa {
+  font-family: "Comfortaa", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* or any valid font-weight value */
+  font-style:normal;
+}
+
 /* Animation pour défiler puis s'arrêter */
 @keyframes scrollAndStop {
   0% {
@@ -77,3 +86,5 @@ body {
     bottom: 15%;
   }
 }
+
+
