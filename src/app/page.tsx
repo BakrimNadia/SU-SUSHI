@@ -6,6 +6,8 @@ import Presentation from "./Components/Presentation";
 import Navbar from "./Components/Navbar";
 import Contact from "./Components/Contact";
 import SushiMenu from "./Components/SushiMenu";
+import Adress from "./Components/Adress";
+import About from "./Components/About";
 
 export default function Home() {
   return (
@@ -18,7 +20,9 @@ export default function Home() {
       </div>
       <div>
         <Presentation />
+        <About />
         <SushiMenu />
+        <Adress />
         <Contact />
       </div>
     </div>

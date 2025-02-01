@@ -24,9 +24,9 @@ export const Presentation = () => {
           <img
             src="/sushi-box.webp"
             alt="Plateau de sushis"
-            className="w-full h-auto md:rounded-lg shadow-lg object-cover"
+            className="w-full h-auto md:rounded-lg shadow-lg object-cover transition-transform duration-300 hover:scale-110"
           />
-          <button className="mt-4 justify-center bg-red-700 px-2 rounded font-semibold hover:bg-red-500">Commander en ligne</button>
+          <button className="mt-4 pt-3 pb-3 justify-center bg-red-700 px-2 rounded font-bold hover:bg-red-500 transition-transform duration-300 hover:scale-110">Commander en ligne</button>
         </div>
   
         {/* Effet de superposition sur mobile */}
