@@ -8,6 +8,7 @@ import Contact from "./Components/Contact";
 import SushiMenu from "./Components/SushiMenu";
 import Adress from "./Components/Adress";
 import About from "./Components/About";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Adress />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }

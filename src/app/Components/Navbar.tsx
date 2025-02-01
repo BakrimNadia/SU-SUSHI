@@ -33,10 +33,10 @@ export default function Navbar() {
           <a href="#Menu" className="text-sm/6 font-semibold text-white">
             NOS MENUS
             </a>
-          <a href="#" className="text-sm/6 font-semibold text-white">
+          <a href="#About" className="text-sm/6 font-semibold text-white">
             A PROPOS
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-white">
+          <a href="#Adress" className="text-sm/6 font-semibold text-white">
             ADRESSE
           </a>
           <a href="#Contact" className="text-sm/6 font-semibold text-white">
@@ -75,13 +75,13 @@ export default function Navbar() {
                     NOS MENUS
                 </a>
                 <a
-                  href="#"
+                  href="#About"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
                 >
                   A PROPOS
                 </a>
                 <a
-                  href="#"
+                  href="#Adress"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
                 >
                   ADRESSE
