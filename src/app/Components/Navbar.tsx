@@ -30,16 +30,16 @@ export default function Navbar() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#Menu" className="text-sm/6 font-semibold text-white">
+          <a href="#Menu" className="text-sm/6 font-semibold text-white hover:text-red-500">
             NOS MENUS
             </a>
-          <a href="#About" className="text-sm/6 font-semibold text-white">
+          <a href="#About" className="text-sm/6 font-semibold text-white hover:text-red-500">
             A PROPOS
           </a>
-          <a href="#Adress" className="text-sm/6 font-semibold text-white">
+          <a href="#Adress" className="text-sm/6 font-semibold text-white hover:text-red-500">
             ADRESSE
           </a>
-          <a href="#Contact" className="text-sm/6 font-semibold text-white">
+          <a href="#Contact" className="text-sm/6 font-semibold text-white hover:text-red-500">
             CONTACT
           </a>
         </PopoverGroup>
@@ -70,25 +70,25 @@ export default function Navbar() {
               <div className="space-y-2 py-6 bg-black">
                 <a
                   href="#Menu"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white  hover:text-red-500"
                 >
                     NOS MENUS
                 </a>
                 <a
                   href="#About"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white  hover:text-red-500"
                 >
                   A PROPOS
                 </a>
                 <a
                   href="#Adress"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white  hover:text-red-500"
                 >
                   ADRESSE
                 </a>
                 <a
                   href="#Contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-500"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white  hover:text-red-500"
                 >
                   CONTACT
                 </a>
