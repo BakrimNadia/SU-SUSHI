@@ -4,9 +4,9 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="comfortaa bg-gradient-to-r from-red-500 to-black text-white py-8">
+    <footer className="comfortaa bg-gradient-to-r from-black via-red-500 to-black text-white py-8">
       <div className="max-w-6xl mx-auto px-6">
-        {/* Logo & Nom du restaurant */}
+      <img className="text-center mx-auto mt-4" src="Logo-sushi.png" alt="logo" />
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold comfortaa">Su Sushi</h2>
           <p className="text-white text-sm">L&apos;authenticité du Japon dans votre assiette</p>

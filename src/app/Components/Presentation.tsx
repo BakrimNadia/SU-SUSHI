@@ -1,7 +1,6 @@
 export const Presentation = () => {
     return (
       <section className="comfortaa relative w-full flex flex-col md:flex-row items-center md:items-start py-12 px-6 md:px-16">
-        {/* Texte à gauche */}
         <div className="md:w-1/2 text-white text-center md:text-left z-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Découvrez l&apos;Art du Sushi 🍣
@@ -18,8 +17,6 @@ export const Presentation = () => {
             - Box Végétarienne
           </p>
         </div>
-  
-        {/* Image à droite */}
         <div className="md:w-1/2 relative mt-6 md:mt-0 text-center">
           <img
             src="/sushi-box.webp"
@@ -29,7 +26,6 @@ export const Presentation = () => {
           <button className="mt-4 pt-3 pb-3 justify-center bg-red-700 px-2 rounded font-bold hover:bg-red-500 transition-transform duration-300 hover:scale-110">Commander en ligne</button>
         </div>
   
-        {/* Effet de superposition sur mobile */}
         <div className="absolute inset-0 bg-black/50 md:hidden"></div>
       </section>
     );
