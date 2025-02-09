@@ -1,6 +1,7 @@
 'use client';
 
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { ArrowUpCircle } from "lucide-react";
 import Header from "./Components/Header";
 import Presentation from "./Components/Presentation";
 import Navbar from "./Components/Navbar";
@@ -11,6 +12,26 @@ import About from "./Components/About";
 import Footer from "./Components/Footer";
 
 export default function Home() {
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > window.innerHeight * 0.8) {
+        setShowScroll(true);
+      } else {
+        setShowScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+
   return (
     <div >
       <div>
@@ -27,6 +48,18 @@ export default function Home() {
         <Contact />
       </div>
       <Footer />
+
+            {/* Bouton Scroll-To-Top */}
+            {showScroll && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-6 right-6 bg-red-500 text-white p-3 rounded-full shadow-lg hover:bg-red-700 transition duration-300"
+          title="Scroll to top"
+          aria-label="Scroll to top"
+        >
+          <ArrowUpCircle size={36} />
+        </button>
+      )}
     </div>
   );
 }
