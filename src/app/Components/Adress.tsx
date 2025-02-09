@@ -10,7 +10,7 @@ export default function Adress() {
         </div>
  <div className="comfortaa max-w-4xl mx-auto p-4 text-black">
       <h2 className="text-2xl font-bold text-center mb-6">Adresse</h2>
-      <p className="text-lg font-semibold text-center">12 rue des Sushis<br />75001 Paris</p>
+      <p className="text-lg font-semibold text-center">Avenue de la Batterie<br />06270 Villeneuve-Loubet</p>
       <p className="text-lg font-semibold text-center">Ouvert du Lundi au Samedi<br />de 11h à 14h et de 18h à 22h</p>
       <p className="text-lg font-semibold text-center">Fermé le Dimanche</p>
       </div>
