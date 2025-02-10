@@ -36,8 +36,8 @@ export default function Home() {
     <div >
       <div>
         <Navbar />
-        <img className="text-center mx-auto mt-4" src="Logo-sushi.png" alt="logo" />
-      <h1 className="comfortaa text-center mt-2 mb-10 font-bold text-4xl">WELCOME TO SU SUSHI</h1>
+        <img className="text-center mx-auto mt-4 duration-1000 ease-out delay-200 animate-fade transition-transform duration-300 hover:scale-110" src="Logo-sushi.png" alt="logo" />
+      <h1 className="comfortaa text-center mt-2 mb-10 font-bold text-white text-shadow text-4xl duration-1000 ease-out delay-200 animate-fade transition-transform duration-300 hover:scale-110">WELCOME TO SU SUSHI</h1>
  <Header />
       </div>
       <div>

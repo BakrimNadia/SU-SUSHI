@@ -23,10 +23,10 @@ export const Presentation = () => {
             alt="Plateau de sushis"
             className="w-full h-auto md:rounded-lg shadow-lg object-cover transition-transform duration-300 hover:scale-110"
           />
-          <button className="mt-4 pt-3 pb-3 justify-center bg-red-700 px-2 rounded font-bold hover:bg-red-500 transition-transform duration-300 hover:scale-110">Commander en ligne</button>
+          <button className="mt-4 pt-3 pb-3 justify-center bg-red-500 px-2 rounded font-bold hover:bg-red-200 transition-transform duration-300 hover:scale-110">Commander en ligne</button>
         </div>
   
-        <div className="absolute inset-0 bg-black/50 md:hidden"></div>
+        <div className="absolute inset-0 md:hidden"></div>
       </section>
     );
   };

@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="comfortaa bg-gradient-to-r from-black via-red-500 to-black text-white py-8">
       <div className="max-w-6xl mx-auto px-6">
-      <img className="text-center mx-auto mt-4" src="Logo-sushi.png" alt="logo" />
+      <img className="text-center mx-auto mt-4 transition-transform duration-300 hover:scale-110" src="Logo-sushi.png" alt="logo" />
         <div className="text-center mb-6">
           <h2 className="text-3xl font-bold comfortaa">Su Sushi</h2>
           <p className="text-white text-sm">L&apos;authenticité du Japon dans votre assiette</p>
@@ -39,13 +39,13 @@ export default function Footer() {
 
         {/* Icônes réseaux sociaux */}
         <div className="flex justify-center space-x-6 mt-6">
-          <a href="#" className="text-white hover:text-red-500 text-2xl">
+          <a href="#" className="text-white hover:text-red-200 text-2xl">
             <FaFacebookF />
           </a>
-          <a href="#" className="text-white hover:text-red-500 text-2xl">
+          <a href="#" className="text-white hover:text-red-200 text-2xl">
             <FaInstagram />
           </a>
-          <a href="#" className="text-white hover:text-red-500 text-2xl">
+          <a href="#" className="text-white hover:text-red-200 text-2xl">
             <FaTwitter />
           </a>
         </div>
